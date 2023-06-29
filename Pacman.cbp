@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pacman" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pacman" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/allegro/include" />
+		</Compiler>
+		<Unit filename="source/blinky.cpp" />
+		<Unit filename="source/blinky.h" />
+		<Unit filename="source/brick.cpp" />
+		<Unit filename="source/brick.h" />
+		<Unit filename="source/character.cpp" />
+		<Unit filename="source/character.h" />
+		<Unit filename="source/clyde.cpp" />
+		<Unit filename="source/clyde.h" />
+		<Unit filename="source/inky.cpp" />
+		<Unit filename="source/inky.h" />
+		<Unit filename="source/main.cpp" />
+		<Unit filename="source/map.cpp" />
+		<Unit filename="source/map.h" />
+		<Unit filename="source/pacman.cpp" />
+		<Unit filename="source/pacman.h" />
+		<Unit filename="source/pill.cpp" />
+		<Unit filename="source/pill.h" />
+		<Unit filename="source/pinky.cpp" />
+		<Unit filename="source/pinky.h" />
+		<Unit filename="source/randomghost.cpp" />
+		<Unit filename="source/randomghost.h" />
+		<Unit filename="source/smartghost.cpp" />
+		<Unit filename="source/smartghost.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
